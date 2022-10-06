@@ -1,242 +1,175 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>响应式表格</title>
-		<link rel="stylesheet" href="css/index.css" />
+		<meta charset="utf-8" />
+		<title>富田太阳城</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<style>
+			.form-search {
+				width: 640px;
+				margin: 20px auto;
+			}
+
+			.search-item {
+				width: 100%;
+				height: 30px;
+			}
+
+			.containerItems {
+				width: 100%;
+				margin: 20px auto;
+				clear: both;
+			}
+
+			.item {
+				height: 100%;
+				float: left;
+				width: 30%;
+				padding: 1%;
+				text-align: left;
+			}
+
+			.item b {
+				width: 100%;
+			}
+
+			b {
+
+				font-size: 2rem;
+
+			}
+
+			a {
+				text-decoration: none;
+				color: #000;
+			}
+		</style>
 	</head>
 	<body>
-		<a href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html%3Fsqid%3D202204290023674174%26lx%3D13%26orgid%3D1500">test </a>
-		<div class="container">
-			<table>
-				<thead>
-					<tr>
-						<th>序号</th>
-						<th>时长</th>
-						<th>课程</th>
-						<th>教室</th>
-						<th>老师</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>1</td>
-						<td>9</td>
-						<td>JavaSE基础</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>2</td>
-						<td>17</td>
-						<td>JavaSE进阶</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>3</td>
-						<td>2</td>
-						<td>Linux</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>4</td>
-						<td>3</td>
-						<td>HTML+CSS+Nginx</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>5</td>
-						<td>5</td>
-						<td>JavaWeb核心</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>6</td>
-						<td>4</td>
-						<td>Mysql</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>7</td>
-						<td>2</td>
-						<td>JDBC</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>8</td>
-						<td>3</td>
-						<td>Mybatis</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>9</td>
-						<td>3</td>
-						<td>JavaScript</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>10</td>
-						<td>1</td>
-						<td>JQuery</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>11</td>
-						<td>1</td>
-						<td>AJAX</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>12</td>
-						<td>2</td>
-						<td>Vue+ElementUI</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>13</td>
-						<td>1</td>
-						<td>Redis</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>14</td>
-						<td>1</td>
-						<td>Maven基础</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>15</td>
-						<td>4</td>
-						<td>JavaWeb综合案例</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>16</td>
-						<td>4</td>
-						<td>Spring</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>17</td>
-						<td>3</td>
-						<td>SpringMVC</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>18</td>
-						<td>1</td>
-						<td>Maven高级</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>19</td>
-						<td>1</td>
-						<td>项目一前置课-Dubbo</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>20</td>
-						<td>1</td>
-						<td>项目一前置课-Zookeeper</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>21</td>
-						<td>2</td>
-						<td>项目一前置课-SpringBoot</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>22</td>
-						<td>2</td>
-						<td>项目一前置课-ElasticSearch</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>23</td>
-						<td>2</td>
-						<td>项目一前置课-RocketMQ</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>24</td>
-						<td>1</td>
-						<td>项目一前置课-Docker</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>25</td>
-						<td>1</td>
-						<td>Redis</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>26</td>
-						<td>1</td>
-						<td>项目一前置课-MybatisPlus</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>27</td>
-						<td>13</td>
-						<td>项目一</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>28</td>
-						<td>1</td>
-						<td>Git</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>29</td>
-						<td>2</td>
-						<td>项目二前置课-SpringCloud</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-					<tr>
-						<td>30</td>
-						<td>17</td>
-						<td>项目二</td>
-						<td>XXX</td>
-						<td>XXX</td>
-					</tr>
-				</tbody>
-			</table>
+		<div class="form-search">
+			<input type="search" class="search-item" placeholder="search..." />
 		</div>
-		<script type="text/javascript">
+
+		<div class="containerItems">
+			<div data-filter="fenghuangyuan" data-search="fenghuangyuan" class="item">
+				<a
+					href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html%3Fsqid%3D202204290023674174%26lx%3D13%26orgid%3D1500"><span><b>凤凰苑</b></span>
+				</a>
+			</div>
+
+			<div data-filter="fenghuangtai" data-search="fenghuangtai" class="item">
+				<a
+					href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202204290023734301&lx%3D13&orgid%3D1500"><span><b>凤凰台南花园</b></span>
+				</a>
+			</div>
+			<div data-filter="shihualu52" data-search="shihualu52" class="item">
+				<a
+					href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202204290023740704&lx%3D13&orgid%3D1500"><span><b>石化路52号院</b></span>
+				</a>
+			</div>
+			<div data-filter="meilinhepan" data-search="meilinhepan" class="item">
+				<a
+					href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202204290024080240&lx%3D13&orgid%3D1500"><span><b>美林河畔</b></span>
+				</a>
+			</div>
+			<div data-filter="qilihe" data-search="qilihe" class="item">
+				<a
+					href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202107311505181162&lx%3D13&orgid%3D1338"><span><b>七里河小区</b></span>
+				</a>
+			</div>
+			<div data-filter="meijinghongchengyiqi" data-search="meijinghongchengyiqi" class="item">
+				<a
+					href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202204290024092307&lx%3D13&orgid%3D1500"><span><b>美景鸿城一期</b></span>
+				</a>
+			</div>
+			<div data-filter="meijinglongmen" data-search="meijinglongmen" class="item">
+				<a
+					href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202204290024218931&lx%3D13&orgid%3D1500"><span><b>美景龙门B栋</b></span>
+				</a>
+			</div>
+			<div data-filter="yangguangcheng3" data-search="yangguangcheng3" class="item">
+				<a
+					href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202112241521460281&lx%3D13&orgid%3D1381"><span><b>阳光城三号院</b></span>
+				</a>
+			</div>
 			
-			location.replace="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html%3Fsqid%3D202204290023674174%26lx%3D13%26orgid%3D1500"
+			<div data-filter="futianxintiandi" data-search="futianxintiandi" class="item">
+				<a href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202204290024001630&lx%3D7&orgid%3D700"><span><b>富田新天地</b></span>
+				</a>
+			</div>
+			
+			<div data-filter="zhongdingfeicui" data-search="zhongdingfeicui" class="item">
+				<a
+					href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202204290023885156&lx%3D13&orgid%3D1500"><span><b>中鼎翡翠</b></span>
+				</a>
+			</div>
+			<div data-filter="zhongdingfeicuijingdian" data-search="zhongdingfeicuijingdian" class="item">
+				<a
+					href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202204290024432775&lx%3D13&orgid%3D1551"><span><b>中鼎翡翠晶典</b></span>
+				</a>
+			</div>
+			<div data-filter="zhengshangxinlanzuanA" data-search="zhengshangxinlanzuanA" class="item">
+				<a
+					href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202204290023901543&lx%3D13&orgid%3D1500"><span><b>正商新蓝钻A区</b></span>
+				</a>
+			</div>
+
+
+			<div data-filter="qihangdasha" data-search="qihangdasha" class="item">
+				<a href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202002272323250029&lx%3D13&orgid%3D1332"><span><b>启航大厦</b></span>
+				</a>
+			</div>
+
+			<div data-filter="jinsegangwan" data-search="jinsegangwan" class="item">
+				<a href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202204290023891575&lx%3D13&orgid%3D1500"><span><b>金色港湾</b></span>
+				</a>
+			</div>
+			
+			<div data-filter="zhengshanglanzuan" data-search="zhengshanglanzuan" class="item">
+				<a href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202204290023890233&lx%3D13&orgid%3D1500"><span><b>正商蓝钻小区</b></span>
+				</a>
+			</div>
+			
+			<div data-filter="anxuzhuanggongguan" data-search="anxuzhuanggongguan" class="item">
+				<a href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202204290024052905&lx%3D13&orgid%3D1500"><span><b>安徐庄公馆</b></span>
+				</a>
+			</div>
+			<div data-filter="xinhezuoshiji" data-search="xinhezuoshiji" class="item">
+				<a href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202204290024001252&lx%3D11&orgid%3D1100"><span><b>新合作市集安徐庄店</b></span>
+				</a>
+			</div>
+			<div data-filter="qilixiangdi" data-search="qilixiangdi" class="item">
+				<a href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202204290024051779&lx%3D13&orgid%3D1500"><span><b>七里香堤</b></span>
+				</a>
+			</div>
+			<div data-filter="zhengshanglanzuanc" data-search="zhengshanglanzuanc" class="item">
+				<a href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202204290024080634&lx%3D13&orgid%3D1500"><span><b>正商新蓝钻C区</b></span>
+				</a>
+			</div>
+			<div data-filter="luxingzhuanghuayuan" data-search="luxingzhuanghuayuan" class="item">
+				<a href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202204290024243818&lx%3D13&orgid%3D1500"><span><b>芦邢庄花苑</b></span>
+				</a>
+			</div>
+			<div data-filter="zhengshanglanzuane" data-search="zhengshanglanzuane" class="item">
+				<a href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202204290024398292&lx%3D13&orgid%3D1551"><span><b>正商新蓝钻E区</b></span>
+				</a>
+			</div>
+			<div data-filter="fazhannajun" data-search="fazhannajun" class="item">
+				<a href="alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsafetrip.zhengzhou.gov.cn%3A20021%2Fmobile%2Findex.html?sqid%3D202204290024051680&lx%3D13&orgid%3D1500"><span><b>发展南郡</b></span>
+				</a>
+			</div>
+			<div data-filter="test" data-search="test" class="item">
+				<a href=""><span><b>test</b></span>
+				</a>
+			</div>
+		</div>
+
+
+
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script src="js/e-search.min.js"></script>
+		<script>
+			$('.search-item').search({})
 		</script>
 	</body>
 </html>
